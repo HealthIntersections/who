@@ -1,0 +1,52 @@
+{
+  "resourceType" : "Condition",
+  "id" : "condition-2",
+  "clinicalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code" : "active"
+    }]
+  },
+  "verificationStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "code" : "confirmed"
+    }]
+  },
+  "category" : [
+    {
+        "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "439401001",
+        "display" : "Diagnosis"
+      }]
+    }
+  ],
+  "severity" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "24484000",
+      "display" : "Severe"
+    }]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://id.who.int/icd/release/11/mms",
+      "code" : "PG61&XE4TZ",
+      "display" : "Struck, kicked, or bumped with undetermined intent by animal [Marsupials]"
+    }],
+    "text" : "Kicked to death by a kangaroo"
+  },
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "http://id.who.int/icd/release/11/mms",
+      "code" : "XA20Q1",
+      "display" : "Head"
+    }],
+    "text" : "Kicked in the head"
+  }],
+  "subject" : {
+    "reference" : "Patient/example"
+  },
+  "onsetDateTime" : "2012-05-24"
+}

@@ -1,0 +1,65 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "conceptmap-1",
+  "url" : "http://fhir.org/guides/fhir/icd11-ig/ConceptMap/conceptmap-1",
+  "version": "1.0.0",
+  "name": "ICD11MMSToNUVASnomedExtension",
+  "title": "ICD-11 MMS to NUVA SNOMED Extension ConceptMap",
+  "status": "draft",
+  "experimental": true,
+  "date": "2026-05-25",
+  "group": [
+    {
+      "source": "http://id.who.int/icd/release/11/mms",
+      "sourceVersion": "2026-01",
+      "target": "http://snomed.info/sct",
+      "targetVersion": "http://snomed.info/sct/11002000107/version/20250509",
+      "element": [
+        {
+          "code": "XM0N24",
+          "display": "Yellow fever vaccines",
+          "target": [
+            {
+              "code": "2061002000107",
+              "display": "Yellow fever vaccine, unspecified",
+              "equivalence": "relatedto"
+            }
+          ]
+        },
+        {
+          "code": "XM0N50",
+          "display": "Poliomyelitis vaccines",
+          "target": [
+            {
+              "code": "2341002000105",
+              "display": "Polio vaccine, unspecified",
+              "equivalence": "relatedto"
+            }
+          ]
+        },
+        {
+          "code": "XM28X5",
+          "display": "Measles vaccines",
+          "target": [
+            {
+              "code": "2101002000105",
+              "display": "Monovalent measles vaccine, unspecified",
+              "equivalence": "relatedto"
+            }
+          ]
+        },
+        {
+          "code": "XM68M6",
+          "display": "COVID-19 vaccines",
+          "target": [
+            {
+              "code": "17161002000107",
+              "display": "COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus",
+              "equivalence": "relatedto"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

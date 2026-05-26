@@ -1,0 +1,48 @@
+{
+  "resourceType" : "Condition",
+  "id" : "condition-1",
+  "clinicalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code" : "active"
+    }]
+  },
+  "verificationStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "code" : "confirmed"
+    }]
+  },
+  "category" : [
+    {
+        "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "439401001",
+        "display" : "Diagnosis"
+      }]
+    }
+  ],
+  "severity" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "24484000",
+      "display" : "Severe"
+    }]
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://id.who.int/icd/release/11/mms",
+      "code" : "PG61",
+      "display" : "Struck, kicked, or bumped with undetermined intent by animal"
+    },{
+      "system" : "http://id.who.int/icd/release/11/mms",
+      "code" : "PA04&XE1G3",
+      "display" : "Unintentional land transport traffic event injuring a car occupant [Alcohol use, suspicion or evidence of alcohol use by the injured person]"
+    }],
+    "text" : "Kicked to death by a kangaroo"
+  },
+  "subject" : {
+    "reference" : "Patient/example"
+  },
+  "onsetDateTime" : "2012-05-24"
+}

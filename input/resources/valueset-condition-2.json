@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "condition-2",
+  "url" : "http://fhir.org/guides/fhir/icd11-ig/ValueSet/condition-2",
+  "name" : "ICD11ValueSet2",
+  "title" : "ICD-11 ValueSet 2",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2015-06-22",
+  "publisher" : "HL7 International / Terminology Infrastructure",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/Vocab"
+    }]
+  }],
+  "description" : "ICD-11 ValueSet 2",
+  "compose" : {
+    "include" : [{
+      "system" : "http://id.who.int/icd/release/11/mms",
+      "concept" : [{
+        "code" : "PG61",
+        "display" : "Struck, kicked, or bumped with undetermined intent by animal"
+      },
+      {
+        "code" : "PG61&XE4TZ",
+        "display" : "Struck, kicked, or bumped with undetermined intent by animal [Marsupials]"
+      },
+      {
+        "code" : "PA14",
+        "display" : "Unintentional land transport nontraffic event injuring a car occupant"
+      }]
+    }]
+  }
+}

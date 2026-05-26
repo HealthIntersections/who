@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R4/fhir-single.xsd">
+  <id value="condition-3"/>
+  <url value="http://fhir.org/guides/fhir/icd11-ig/StructureDefinition/condition-3"/>
+  <name value="ICD11Example3"/>
+  <title value="ICD-11 Example 3"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <publisher value="HL7 International / FHIR Infrastructure"/>
+  <contact>
+    <telecom>
+      <!-- Or whatever URL and/or email address(es) are appropriate -->
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/fhir-i"/>
+    </telecom>
+  </contact>
+  <description value="ICD-11 Example 3"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+    </coding>
+  </jurisdiction>  
+  <fhirVersion value="5.0.0"/>
+  <mapping>
+    <identity value="fhir"/>
+    <uri value="http://hl7.org/fhir"/>
+  </mapping>
+  <mapping>
+    <identity value="openehr"/>
+    <uri value="http://openehr.org/specifications"/>
+  </mapping>
+  <mapping>
+    <identity value="cda"/>
+    <uri value="http://hl7.org/cda"/>
+  </mapping>
+  <kind value="complex-type"/>
+  <abstract value="false"/>
+  <type value="Condition"/>
+  <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Condition"/>
+  <derivation value="constraint"/>
+  <differential>
+   <element id="Condition.code">
+      <path value="Condition.code"/> 
+      <binding>
+        <strength value="required"/>
+        <valueSet value="http://fhir.org/guides/fhir/icd11-ig/ValueSet/condition-3"/>
+      </binding>
+    </element> 
+  </differential>
+</StructureDefinition>

@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "condition-3",
+  "url" : "http://fhir.org/guides/fhir/icd11-ig/ValueSet/condition-3",
+  "name" : "ICD11ValueSet3",
+  "title" : "ICD-11 ValueSet 3",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2015-06-22",
+  "publisher" : "HL7 International / Terminology Infrastructure",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/Vocab"
+    }]
+  }],
+  "description" : "ICD-11 ValueSet 3",
+  "compose" : {
+    "include" : [{
+      "system" : "http://id.who.int/icd/release/11/mms",
+      "filter" : [{
+        "property" : "code",
+        "op" : "is-a",
+        "value" : "http://id.who.int/icd/entity/1435254666"
+      },{
+        "property" : "post-coordination",
+        "op" : "=",
+        "value" : "allowed"
+      }]
+    }]
+  }
+}
