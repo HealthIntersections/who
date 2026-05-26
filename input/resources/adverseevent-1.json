@@ -25,10 +25,9 @@
   "code" : {
     "coding" : [{
       "system" : "http://id.who.int/icd/release/11/mms",
-      "code" : "PG61 / PA04&XE1G3",
-      "display" : "Struck, kicked, or bumped with undetermined intent by animal / Unintentional land transport traffic event injuring a car occupant [Alcohol use, suspicion or evidence of alcohol use by the injured person]"
-    }],
-    "text" : "Kicked to death by a kangaroo"
+      "code" : "PL13.52",
+      "display" : "Incorrect timing of drug or medicament, as mode of injury"
+    }]
   },
   "subject" : {
     "reference" : "Patient/example"

@@ -4,13 +4,22 @@
   "status" : "completed",
   "code" : {
     "coding" : [{
-      "system" : "http://id.who.int/icd/release/11/mms",
-      "code" : "SP9Y",
-      "display" : "Aggravated Aiyam leading to evacuation of bladder and rectum disorder (TM2)"
+      "system" : "http://snomed.info/sct",
+      "code" : "80146002",
+      "display" : "Appendectomy"
     }]
   },
   "subject" : {
     "reference" : "Patient/example"
   },
-  "occurrenceDateTime" : "2013-04-05"
+  "occurrenceDateTime" : "2013-04-05",
+  "reason" : [{
+    "concept" : {
+      "coding" : [{
+        "system" : "http://id.who.int/icd/release/11/mms",
+        "code" : "DB10.0",
+        "display" : "Acute appendicitis"
+      }] 
+    }
+  }]
 }

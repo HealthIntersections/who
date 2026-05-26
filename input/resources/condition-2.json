@@ -25,26 +25,18 @@
   "severity" : {
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "24484000",
-      "display" : "Severe"
+      "code" : "1255665007",
+      "display" : "Moderate"
     }]
   },
   "code" : {
     "coding" : [{
       "system" : "http://id.who.int/icd/release/11/mms",
-      "code" : "PG61&XE4TZ",
-      "display" : "Struck, kicked, or bumped with undetermined intent by animal [Marsupials]"
+      "code" : "6D85.7&XS0T/NA07",
+      "display" : "Dementia due to injury to the head [Moderate] [Intracranial injury]"
     }],
-    "text" : "Kicked to death by a kangaroo"
+    "text" : "Moderate dementia subsequent to head injury"
   },
-  "bodySite" : [{
-    "coding" : [{
-      "system" : "http://id.who.int/icd/release/11/mms",
-      "code" : "XA20Q1",
-      "display" : "Head"
-    }],
-    "text" : "Kicked in the head"
-  }],
   "subject" : {
     "reference" : "Patient/example"
   },

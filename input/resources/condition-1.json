@@ -32,14 +32,14 @@
   "code" : {
     "coding" : [{
       "system" : "http://id.who.int/icd/release/11/mms",
-      "code" : "PG61",
-      "display" : "Struck, kicked, or bumped with undetermined intent by animal"
+      "code" : "MB4D",
+      "display" : "Headache, not elsewhere classified"
     },{
       "system" : "http://id.who.int/icd/release/11/mms",
-      "code" : "PA04&XE1G3",
-      "display" : "Unintentional land transport traffic event injuring a car occupant [Alcohol use, suspicion or evidence of alcohol use by the injured person]"
+      "code" : "MD90",
+      "display" : "Nausea or vomiting"
     }],
-    "text" : "Kicked to death by a kangaroo"
+    "text" : "This combination is illegal"
   },
   "subject" : {
     "reference" : "Patient/example"
