@@ -22,7 +22,7 @@
             {
               "code": "2061002000107",
               "display": "Yellow fever vaccine, unspecified",
-              "equivalence": "relatedto"
+              "relationship": "relatedto"
             }
           ]
         },
@@ -33,7 +33,7 @@
             {
               "code": "2341002000105",
               "display": "Polio vaccine, unspecified",
-              "equivalence": "relatedto"
+              "relationship": "relatedto"
             }
           ]
         },
@@ -44,7 +44,7 @@
             {
               "code": "2101002000105",
               "display": "Monovalent measles vaccine, unspecified",
-              "equivalence": "relatedto"
+              "relationship": "relatedto"
             }
           ]
         },
@@ -55,7 +55,7 @@
             {
               "code": "17161002000107",
               "display": "COVID-19 vaccine, mRNA encoding the SARS-CoV-2 spike protein, original virus",
-              "equivalence": "relatedto"
+              "relationship": "relatedto"
             }
           ]
         }
