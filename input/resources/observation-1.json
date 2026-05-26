@@ -1,0 +1,22 @@
+{
+  "resourceType" : "Observation",
+  "id" : "f001",
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://id.who.int/icd/release/11/mms",
+      "code" : "5A40.Y",
+      "display" : "Other specified intermediate hyperglycaemia"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/example"
+  },
+  "effectiveDateTime" : "2013-04-02T09:30:10+01:00",
+  "valueQuantity" : {
+    "value" : 6.3,
+    "unit" : "mmol/l",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "mmol/L"
+  }
+} 
