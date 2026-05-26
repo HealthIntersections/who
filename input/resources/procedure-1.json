@@ -1,0 +1,16 @@
+{
+  "resourceType" : "Procedure",
+  "id" : "example",
+  "status" : "completed",
+  "code" : {
+    "coding" : [{
+      "system" : "http://id.who.int/icd/release/11/mms",
+      "code" : "SP9Y",
+      "display" : "Other specified disorders affecting the whole body (TM2)"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/example"
+  },
+  "occurrenceDateTime" : "2013-04-05"
+}
